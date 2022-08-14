@@ -5,3 +5,25 @@ body{
 .CardLeftBar{
     background-color: #f8f9fa;
 }
+
+.Avatar{
+    width: 20px;
+    height: 20px;
+    position: static;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.AvatarText{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.AvatarText:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.CardHeader{
+    font-size: 12px;
+}
