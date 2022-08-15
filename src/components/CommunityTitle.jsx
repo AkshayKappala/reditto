@@ -9,7 +9,7 @@ function CommunityTitle() {
   return (
     <div className="mx-1 p-0">
       <img src={TitleImgURL} alt="Community" className="Avatar me-1"></img>
-      <a href="#community" className="CardHeader AvatarText">
+      <a href="#community" className="CardHeader HiddenLink AvatarText">
         {Title}
       </a>
     </div>

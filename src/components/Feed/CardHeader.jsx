@@ -8,7 +8,11 @@ function CardHeader() {
     <Row>
       <div className="my-1 mx-0 p-0 d-flex CardHeader">
         <CommunityTitle />
-        Posted by u/monkeyman 4h ago
+        &middot; posted by
+        <a href="#user" className="mx-1 HiddenLink">
+          u/monkeyman
+        </a>
+        &middot; 4h ago
       </div>
       <p className="my-0 mx-1 p-0">The bird named salad</p>
     </Row>

@@ -16,10 +16,14 @@ body{
 
 .AvatarText{
     font-weight: bold;
+}
+
+.HiddenLink{
     text-decoration: none;
     color: black;
 }
-.AvatarText:hover {
+
+.HiddenLink:hover{
     text-decoration: underline;
     color: black;
 }
