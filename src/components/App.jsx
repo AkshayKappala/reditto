@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Topbar />
-      <h1>Welcome to Reditto!</h1>
       <Feed />
     </div>
   );

@@ -8,7 +8,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 
 function FeedFilterBar() {
   return (
-    <Card>
+    <Card className="mb-1">
       <Container className="d-flex p-2">
         <Button
           variant="light"

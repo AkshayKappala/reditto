@@ -7,8 +7,9 @@ import FeedFilterBar from "./FeedFilterBar";
 function Feed() {
   return (
     <>
-      <Stack gap={2} className="col-md-4 mx-auto">
+      <Stack gap={2} className="col-md-4 mx-auto mt-3">
         <FeedFilterBar />
+        <PostCard />
         <PostCard />
       </Stack>
     </>
