@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 
 function CardLeftBar() {
   return (
-    <Col md={1} className={"CardLeftBar"}>
+    <Col md={1} className="CardLeftBar">
       <Stack>
         <Button variant="light" className="p-0">
           <i class="bi bi-caret-up"></i>

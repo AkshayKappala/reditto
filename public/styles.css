@@ -4,6 +4,8 @@ body{
 
 .CardLeftBar{
     background-color: #f8f9fa;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .Avatar{
@@ -30,4 +32,33 @@ body{
 
 .CardHeader{
     font-size: 12px;
+}
+
+#dropdown-filter{
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    color: grey;
+    font-weight: bold;
+}
+#dropdown-filter:hover{
+    background-color: #dae0e6;
+}
+
+.FeedFilter{
+    background-color: white;
+    border-color: white;
+    color: grey;
+    font-weight: bold;
+}
+
+.FeedFilter:hover{
+    background-color: #dae0e6;
+    color: grey;
+}
+
+.FeedFilterActive, .FeedFilterActive:hover{
+    background-color: #f8f9fa;
+    color: blue;
+    font-weight: bold;
 }
