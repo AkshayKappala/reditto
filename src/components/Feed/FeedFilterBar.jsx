@@ -31,11 +31,25 @@ function FeedFilterBar() {
           id="dropdown-filter"
           className="ms-auto"
         >
-          <Dropdown.Item href="#/action-1">Today</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">This Week</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">This Month</Dropdown.Item>
-          <Dropdown.Item href="#/action-4">This Year</Dropdown.Item>
-          <Dropdown.Item href="#/action-5">All Time</Dropdown.Item>
+          <Dropdown.Item href="#/action-1" className="GreyButton">
+            Today
+          </Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item href="#/action-2" className="GreyButton">
+            This Week
+          </Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item href="#/action-3" className="GreyButton">
+            This Month
+          </Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item href="#/action-4" className="GreyButton">
+            This Year
+          </Dropdown.Item>
+          <Dropdown.Divider />
+          <Dropdown.Item href="#/action-5" className="GreyButton">
+            All Time
+          </Dropdown.Item>
         </DropdownButton>
       </Container>
     </Card>

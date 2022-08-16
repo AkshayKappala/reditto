@@ -12,7 +12,9 @@ function HeaderUserDropdown() {
       className="mx-2"
     >
       <Dropdown.Item href="#/action-1">Dark Mode</Dropdown.Item>
+      <Dropdown.Divider />
       <Dropdown.Item href="#/action-2">Help Center</Dropdown.Item>
+      <Dropdown.Divider />
       <Dropdown.Item href="#/action-3">Terms and Policies</Dropdown.Item>
     </DropdownButton>
   );

@@ -14,7 +14,7 @@ function CardHeader() {
         </a>
         &middot; 4h ago
       </div>
-      <p className="my-0 mx-1 p-0">The bird named salad</p>
+      <p className="my-0 mx-0 p-0 ps-1 PostTitle">The bird named salad</p>
     </Row>
   );
 }

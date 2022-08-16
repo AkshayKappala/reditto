@@ -2,10 +2,54 @@ body{
     background-color: #dae0e6;
 }
 
+.FeedFilter{
+    background-color: white;
+    border-color: white;
+    color: grey;
+    font-weight: 600;
+}
+
+.FeedFilter:hover, .PostFooterButton:hover{
+    background-color: #dae0e6;
+    color: grey;
+}
+
+.FeedFilterActive, .FeedFilterActive:hover{
+    background-color: #f8f9fa;
+    color:dodgerblue;
+    font-weight: 600;
+}
+
+#dropdown-filter{
+    border-radius: 20px;
+    background-color: white;
+    border-color: white;
+    color: grey;
+    font-weight: 600;
+}
+
+#dropdown-filter:hover{
+    background-color: #dae0e6;
+}
+
 .CardLeftBar{
     background-color: #f8f9fa;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+.GreyButton{
+    color: grey;
+}
+
+.HeavyCharacters{
+    font-weight: 600;
+}
+
+.VoteCount{
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .Avatar{
@@ -17,48 +61,50 @@ body{
 }
 
 .AvatarText{
-    font-weight: bold;
+    font-weight: 600;
+    color: black !important;
 }
 
 .HiddenLink{
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 .HiddenLink:hover{
     text-decoration: underline;
-    color: black;
+    color: grey;
 }
 
 .CardHeader{
     font-size: 12px;
+    color: grey;
 }
 
-#dropdown-filter{
-    border-radius: 20px;
+.PostTitle{
+    font-weight:600;
+    font-size: 18px;
+}
+
+.PostFooterButton{
     background-color: white;
     border-color: white;
-    color: grey;
-    font-weight: bold;
-}
-#dropdown-filter:hover{
-    background-color: #dae0e6;
+    font-size: 12px;
+    font-weight: 600;
 }
 
-.FeedFilter{
+.PostFooterButtonSymbol
+{
+    font-size: 16px !important;
+}
+
+#dropdown-footer{
     background-color: white;
     border-color: white;
-    color: grey;
-    font-weight: bold;
+    color:grey;
 }
-
-.FeedFilter:hover{
+#dropdown-footer:hover{
     background-color: #dae0e6;
-    color: grey;
 }
-
-.FeedFilterActive, .FeedFilterActive:hover{
-    background-color: #f8f9fa;
-    color: blue;
-    font-weight: bold;
+#dropdown-footer::after{
+    display: none !important;
 }

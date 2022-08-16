@@ -6,13 +6,13 @@ import Button from "react-bootstrap/Button";
 function CardLeftBar() {
   return (
     <Col md={1} className="CardLeftBar">
-      <Stack>
-        <Button variant="light" className="p-0">
-          <i class="bi bi-caret-up"></i>
+      <Stack className="my-1">
+        <Button variant="light" className="p-0 GreyButton">
+          <i class="bi bi-hand-thumbs-up"></i>
         </Button>
-        <div className="text-wrap p-0 text-center">0</div>
-        <Button variant="light" className="p-0">
-          <i class="bi bi-caret-down"></i>
+        <div className="text-wrap p-0 text-center VoteCount">16</div>
+        <Button variant="light" className="p-0 GreyButton">
+          <i class="bi bi-hand-thumbs-down"></i>
         </Button>
       </Stack>
     </Col>
