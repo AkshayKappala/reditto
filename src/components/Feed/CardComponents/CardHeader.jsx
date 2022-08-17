@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 
-import CommunityTitle from "../CommunityTitle";
+import CommunityTitle from "../../CommunityTitle";
 
 function CardHeader() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 
-import TemplateImage from "../../images/Image_Template.png";
+import TemplateImage from "../../../images/Image_Template.png";
 
 function CardBody() {
   return (

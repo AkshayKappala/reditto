@@ -4,10 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
-import CardLeftBar from "./CardLeftBar";
-import CardHeader from "./CardHeader";
-import CardBody from "./CardBody";
-import CardFooter from "./CardFooter";
+import CardLeftBar from "./CardComponents/CardLeftBar";
+import CardHeader from "./CardComponents/CardHeader";
+import CardBody from "./CardComponents/CardBody";
+import CardFooter from "./CardComponents/CardFooter";
 
 function PostCard() {
   return (
